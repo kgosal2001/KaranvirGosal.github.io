@@ -52,12 +52,12 @@
 		$this.each(function() {
 
 			var $t = $(this),
-				$bg = $('<div class="bg"></div>').appendTo($t),
+				$bgnew = $('<div class="bgnew"></div>').appendTo($t),
 				on, off;
 
 			on = function() {
 
-				$bg
+				$bgnew
 					.removeClass('fixed')
 					.css('transform', 'matrix(1,0,0,1,0,0)');
 
@@ -66,7 +66,7 @@
 
 						var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
 
-						$bg.css('transform', 'matrix(1,0,0,1,0,' + (pos * intensity) + ')');
+						$bgnew.css('transform', 'matrix(1,0,0,1,0,' + (pos * intensity) + ')');
 
 					});
 
@@ -74,7 +74,7 @@
 
 			off = function() {
 
-				$bg
+				$bgnew
 					.addClass('fixed')
 					.css('transform', 'none');
 
