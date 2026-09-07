@@ -3237,7 +3237,7 @@ input, select, textarea {
 			background-image: 
         		url("../../images/overlay.png"), 
         		linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
-        		url("../../images/bgnew1.png"),
+        		url("../../images/bgnew.jpeg"),
         		linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
 			background-size: auto, auto, 100% auto;
 			background-position: center,								center,														top center;
@@ -4624,7 +4624,6 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
 			width: 7rem;
 		}
 
